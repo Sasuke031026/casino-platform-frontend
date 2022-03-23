@@ -1,0 +1,287 @@
+.mypage {
+    padding-top: 2vh;
+    background-color: black;
+    background-image: url("../../../assets/image/back_lightred_img.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mygame-title {
+    margin-top: 120px !important;
+    margin: 35px 0;
+}
+.t-font {
+    font-size: 30px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    font-family: "Microsoft Sans Serif";
+    font-weight: bold;
+}
+.card-group {
+    padding: 0px 1vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+}
+.card-block {
+    border-radius: 15px;
+}
+.card-block:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 20px 5px var(--hover_clr);
+    transform: scale(1.02);
+}
+.card-title {
+    font-size: 20px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: #d13737;
+    margin-bottom: 0;
+}
+.card-set {
+    border-radius: 15px;
+    transition: 0.4s all;
+}
+.card-main {
+    background-color: #151313;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 2vh 1.2vw 3vh 1.2vw;
+    height: 250px;
+}
+.card-set:hover {
+    box-shadow: 0 0 20px 5px rgb(209 55 55);
+    transform: scale(1.02);
+}
+.card-main-label {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.card-main-content {
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.card-btn {
+    background-color: #d13737;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid #d13737;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.card-btn > img {
+    width: 30px;
+}
+.card-btn:hover {
+    background-color: white;
+    box-shadow: 0 0 2px 3px #d13737;
+    color: #d13737;
+}
+.submit-btn a {
+    color: white;
+}
+.submit-btn button {
+    float: right;
+    background-color: #d13737;
+    width: 170px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px solid #d13737;
+    cursor: pointer;
+    color: white;
+}
+.submit-btn button:hover {
+    border-radius: 25px;
+    box-shadow: 0 0 8px 5px white;
+    transform: scale(1.02);
+}
+.card-input-block {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    flex-direction: row;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    align-items: center;
+}
+.card-input-block > span {
+    font-size: 15px;
+    height: 20px;
+    color: var(--menu_list_clr);
+    border-right: 1px solid var(--menu_list_clr);
+    display: flex;
+    align-items: center;
+}
+.card-amount-input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 20px;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 5px;
+}
+.card-amount-input:focus {
+    outline: none;
+}
+.mygame-list {
+    margin-top: 50px;
+}
+.mygame-list-item {
+    padding: 5px;
+    overflow: hidden;
+    height: 220px;
+    position: relative;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.mygame-list-image-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mygame-list-image-item:hover img {
+    transform: scale(1.05);
+}
+.mygame-list-image-item > img {
+    border-radius: 20px;
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+.mygame-list-item:hover .mygame-list-item-back {
+    height: 80%;
+}
+.mygame-list-item:hover .mygame-list-item-hover {
+    opacity: 1;
+}
+.mygame-list-item-back {
+    position: absolute;
+    background-color: var(--black);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    border-radius: 15px;
+    opacity: 0.6;
+    transition: 0.4s all ease-in-out;
+}
+.mygame-list-item-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+}
+.mygame-list-item-title {
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--white);
+    line-height: 1;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px #eb452b, 3px 3px 0px #efa032, 3px 3px 0px #46b59b,
+        5px 5px 0px #017e7f, 5px 5px 0px #052939, 5px 5px 0px #c11a2b,
+        5px 5px 0px #c11a2b, 5px 5px 0px #c11a2b, 5px 5px 0px #c11a2b;
+}
+.mygame-list-item-btns {
+    position: absolute;
+    margin-top: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mygame-list-item-btn {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: var(--block_clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--block_clr);
+}
+.mygame-list-item-btn:hover {
+    border: 1px solid var(--block_clr);
+    background-color: var(--white);
+    box-shadow: 0 0 2px 3px var(--block_clr);
+}
+.mygame-list-item-btn > i {
+    font-size: 15px;
+}
+.mygame-list-item-btn:hover i {
+    color: var(--block_clr);
+    font-size: 22px;
+}
+.gameadd {
+    padding: 0 6vw;
+}
+.submit-games {
+    padding: 5vw;
+}
+@media screen and (max-width: 1200px) {
+    .MuiGrid-root {
+        margin-left: 0px !important;
+    }
+    .farm-gamelist {
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 899px) {
+    .card-block {
+        margin-top: 10px !important;
+    }
+    .submit-btn {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .card-title {
+        font-size: 14px !important;
+    }
+    .t-font {
+        font-size: 24px;
+        color: white;
+        transition: all 0.2s ease-in-out;
+        font-family: "Microsoft Sans Serif";
+        font-weight: bold;
+    }
+    .card-btn {
+        font-size: 16px;
+    }
+    .submit-btn {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+}
+/* end */

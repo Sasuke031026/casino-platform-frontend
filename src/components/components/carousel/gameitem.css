@@ -1,0 +1,99 @@
+.BalanceDialog {
+    background-color: transparent;
+    height: auto;
+}
+
+.BalanceDialog .MuiPaper-root {
+    background-color: var(--menu_backclr);
+}
+
+.balance-modal-main {
+    color: var(--white);
+    padding: 30px 50px;
+    width: 550px;
+}
+
+.balance-modal-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: var(--block_clr);
+}
+
+.balance-input-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.balance-input {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 5px;
+    width: 60%;
+    box-shadow: 0 0 2px 3px var(--menu_list_clr);
+    color: #aaa;
+    margin-left: 30px;
+}
+
+.balance-input:hover {
+    border: 2px solid var(--block_clr);
+    box-shadow: 0 0 3px 3px var(--block_clr);
+}
+
+.balance-input:focus {
+    border: 2px solid var(--block_clr);
+    box-shadow: 0 0 2px 3px var(--hover_clr);
+}
+
+.balance-button-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.balance-btn {
+    padding: 8px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--block_clr);
+}
+
+.agree-btn {
+    background-color: var(--white);
+    color: var(--block_clr);
+    font-weight: bold;
+}
+
+.agree-btn:hover {
+    cursor: pointer;
+    background-color: var(--block_clr);
+    color: var(--white);
+    box-shadow: 0 0 2px 2px var(--white);
+}
+
+.no-btn {
+    background-color: var(--block_clr);
+    font-weight: bold;
+}
+
+.no-btn:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--block_clr);
+    box-shadow: 0 0 2px 2px var(--block_clr);
+}
+
+@media screen and (max-width: 600px) {
+    .balance-modal-main {
+        width: 100%;
+        font-size: 100% !important;
+    }
+}

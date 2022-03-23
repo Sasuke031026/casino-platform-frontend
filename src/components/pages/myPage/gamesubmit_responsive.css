@@ -1,0 +1,89 @@
+@media screen and (max-width: 3000px) {
+  .gamesubmit {
+    margin-top: 4.55vw;
+  }
+
+  .gamesubmit-title-block {
+    padding: 0.7vw 0px;
+    font-size: 1.4vw;
+    box-shadow: 0 0 1vw 1px var(--white);
+  }
+
+  .gamesubmit-title-block div {
+    margin-left: 0.9vw;
+  }
+
+  .gamesubmit-card-block {
+    padding: 0.9vw 0px;
+    box-shadow: 0 0 1vw 1px var(--block_clr);
+  }
+
+  .gamesub-upload-preview {
+    font-size: 0.9vw;
+    padding: 0.9vw 0px;
+  }
+
+  .gamesub-upload-preview > i {
+    margin: 1.4vw 0px;
+    font-size: 7vw;
+  }
+
+  .game-cover-btn-block {
+    margin-top: 2vw;
+  }
+
+  .game-cover-btn {
+    padding: 0.5vw 1.4vw;
+    font-size: 1vw;
+  }
+
+  .game-cover-btn > i {
+    margin-right: 0.5vw;
+  }
+
+  .gamesub-content-block {
+    padding: 20px;
+  }
+
+  .gamesub-content-block-1 {
+    text-align: center;
+  }
+  .gamesub-content-block-item > span {
+    font-size: 0.73vw;
+    margin-bottom: 0.5vw;
+  }
+
+  .gamesub-content-block-input {
+    font-size: 0.8vw;
+    padding: 0.5vw 0.3vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .gamesub-content-submit-btn {
+    padding: 0.75vw 2.5vw;
+    font-size: 1vw;
+  }
+
+  .gamesub-content-submit-btn img {
+    height: 1.5vw;
+  }
+
+  .gamesub-content-block-item-one {
+    font-size: 1.2vw !important;
+  }
+
+  .gamesub-content-block-item-sec {
+    font-size: 1.4vw !important;
+    margin-bottom: 2vw !important;
+  }
+  .gamesub-content-input {
+    color: black ;
+    font-size: 1.4vw !important;
+    margin-bottom: 2vw !important;
+  }
+
+  .margin-top-1 {
+    margin-top: 30px;
+  }
+
+}

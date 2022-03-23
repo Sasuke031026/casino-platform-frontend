@@ -1,0 +1,142 @@
+.SignInDialog {
+    background-color: transparent;
+    height: auto;
+}
+
+.SignInDialog .MuiPaper-root {
+    background-color: var(--menu_backclr);
+}
+
+.signpagebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.signpagecontainer {
+    background-color: var(--menu_backclr);
+    position: relative;
+}
+
+.sign-logo {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0 7px 0;
+}
+
+.login-disable-btn {
+    border-radius: 10px !important;
+    background-color: var(--menu_list_clr) !important;
+    padding: 7px !important;
+}
+
+.login-disable-btn .MuiButton-label {
+    font-size: 20px !important;
+    font-weight: bold;
+    color: black !important;
+}
+
+.MuiPaper-rounded {
+    border-radius: 10px !important;
+}
+
+.login-enable-btn {
+    border-radius: 10px !important;
+    background-color: var(--block_clr) !important;
+    padding: 7px !important;
+    width: 400px !important;
+    font-weight: bold;
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.signup {
+    width: 100% !important;
+}
+
+.MuiButton-label {
+    font-weight: bold;
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.sign-or-text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.sign-or-text > span {
+    font-size: 15px !important;
+    cursor: pointer;
+    color: var(--block_clr);
+}
+
+.sign-or-text > span:hover {
+    text-decoration: underline;
+}
+
+.sign-reg-here {
+    color: var(--bs-white);
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sign-reg-here > span {
+    font-size: 15px;
+    cursor: pointer;
+    color: var(--block_clr);
+}
+.sign-reg-here > span:hover {
+    text-decoration: underline;
+}
+
+.eyeicons {
+    font-size: 20px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.pass-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-dialog-close-btn {
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 5;
+    transition: 0.4s all;
+}
+
+.sign-dialog-close-btn > i {
+    font-size: 16px;
+}
+.sign-dialog-close-btn > i:hover {
+    font-size: 20px;
+}
+
+.link-btn {
+    text-decoration: none;
+}
+
+.no-game-item {
+    margin-top: 100px;
+}
+
+.header-carsoul-block-img {
+    height: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@media screen and (max-width: 500px) {
+    .login-enable-btn {
+        width: 100% !important;
+    }
+}

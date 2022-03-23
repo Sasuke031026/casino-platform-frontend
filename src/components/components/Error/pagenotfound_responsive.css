@@ -1,0 +1,20 @@
+@media screen and (max-width: 2000px) {
+    .pagenotfound h1 {
+        font-size: 12vw;
+        letter-spacing: 1vw;
+    }
+
+    .page-img img {
+        width: 12vw;
+    }
+
+    .pagenotfound p {
+        font-size: 1vw;
+    }
+
+    .pagenotfound a {
+        font-size: 1vw;
+        padding: 0.7vw 1.8vw;
+        margin-top: 2vw;
+    }
+}
